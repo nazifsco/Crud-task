@@ -1,3 +1,4 @@
+import os
 """
 Django settings for I4G007807NKM project.
 
@@ -37,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog.apps.BlogConfig',
+    'blog.apps.BlogConfig'
 ]
 
 MIDDLEWARE = [
